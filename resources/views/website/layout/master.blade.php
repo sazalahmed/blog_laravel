@@ -13,7 +13,7 @@
 
 <body>
 
-    @include('layout.header')
+    @include('website.layout.header')
 
     <div class="container-fluid">
         <main class="tm-main">
@@ -34,7 +34,7 @@
             @yield('content')
 
 
-            @include('layout.footer')
+            @include('website.layout.footer')
 
         </main>
     </div>

@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('website.layout.master')
 
 @section('content')
     <div class="row tm-row tm-mb-45">

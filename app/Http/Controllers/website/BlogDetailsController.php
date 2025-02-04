@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\website;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class BlogDetailsController extends Controller
 {
     public function index()
     {
-        return view('blog-details');
+        return view('website.blog-details');
     }
 }
